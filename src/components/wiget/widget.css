@@ -1,0 +1,141 @@
+.widget {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 10px;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  border-radius: 10px;
+  height: 100px;
+}
+.widget .left,
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.widget .title {
+  font-size: 14px;
+  font-weight: bold;
+  color: gray;
+}
+.widget .link:hover {
+  background-color: greenyellow;
+}
+.widget .counter {
+  font-size: 28px;
+  font-weight: 300;
+}
+.widget .percentage {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.positive {
+  color: green;
+}
+.positive:hover {
+  background-color: chartreuse;
+}
+.negative {
+  color: crimson;
+}
+.widget .icon {
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 1200px) {
+  .widgets {
+    max-width: 100%;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    flex-direction: column;
+  }
+  /* .widget .title {
+    font-size: 35px;
+    font-weight: bold;
+    color: gray;
+  }
+  .widget .percentage {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+  }
+  .widget .icon {
+    font-size: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    align-self: flex-end;
+  }
+  .widget .link {
+    text-decoration: none;
+    color: green;
+    font-size: 35px;
+    font-weight: 400;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+
+  @media screen and (max-width: 768px) {
+    .widget .title {
+      font-size: 20px;
+      font-weight: bold;
+      color: gray;
+    }
+    .widget .link {
+      text-decoration: none;
+      color: green;
+      font-size: 20px;
+      font-weight: 400;
+      border: 1px solid green;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .widget .percentage {
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+    }
+    .widget .icon {
+      font-size: 20px;
+      padding: 5px;
+      border-radius: 5px;
+      align-self: flex-end;
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  .widget .title {
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+  }
+  .widget .link {
+    text-decoration: none;
+    color: green;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .widget .percentage {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+  .widget .icon {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    align-self: flex-end;
+  }
+}

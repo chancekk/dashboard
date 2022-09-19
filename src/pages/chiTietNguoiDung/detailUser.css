@@ -1,0 +1,34 @@
+.detailUser .top_DetailUser {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+.detailUser .left_DetailUser {
+  flex: 1;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 20px;
+  position: relative;
+}
+.detailUser .right_DetailUser {
+  flex: 2;
+}
+.detailUser .item_DetailUser {
+  display: flex;
+  gap: 20px;
+}
+.detailUser .itemImg {
+  width: 160px;
+  height: 100px;
+}
+.detailUser .editButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: lightgray;
+  color: crimson;
+  cursor: pointer;
+}
+.detailUser .itemKey {
+  font-size: 14px;
+}

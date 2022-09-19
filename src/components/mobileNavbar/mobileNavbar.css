@@ -1,0 +1,13 @@
+.mobileNavbar .logo {
+  border-bottom: 0.5px solid lightgray !important;
+}
+@media screen and (min-width: 1200px) {
+  .mobileNavbar {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .mobileNavbar {
+    margin-bottom: 3%;
+  }
+}

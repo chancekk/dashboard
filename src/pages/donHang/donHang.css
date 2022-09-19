@@ -1,0 +1,10 @@
+@media screen and (max-width: 425px) {
+  .List .table {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 22rem;
+    height: 50vh;
+  }
+}

@@ -1,0 +1,66 @@
+.home {
+  display: flex;
+}
+.homeContainer {
+  flex: 6;
+}
+.widgets {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+.home-title {
+  width: 90%;
+  font-size: 24px;
+  color: gray;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+  .homeContainer {
+    grid-template-columns: 50% 50% auto;
+  }
+  .home-title {
+    width: 90%;
+    font-size: 35px;
+    color: gray;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .homeContainer {
+    flex: 6 1;
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home-title {
+    width: 90%;
+    font-size: 25px;
+    color: gray;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 425px) {
+  .home-title {
+    width: 90%;
+    font-size: 20px;
+    color: gray;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

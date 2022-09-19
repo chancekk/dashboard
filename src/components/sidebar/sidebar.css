@@ -1,0 +1,71 @@
+.sidebar {
+  flex: 1;
+  min-height: 100vh;
+  border-right: 0.5px solid lightgray;
+}
+hr {
+  color: lightgray;
+}
+.top {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.5px solid lightgray;
+}
+.center {
+  padding-left: 10px;
+}
+.center ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.center ul li {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+.center ul li:hover {
+  background-color: #ece8ff;
+}
+.center .icon {
+  font-size: 18px;
+  color: crimson;
+}
+.center span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #888;
+  margin-left: 10px;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.bottom .colorOption {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 5px;
+}
+.bottom .colorOption:nth-child(1) {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+.bottom .colorOption:nth-child(2) {
+  background-color: #333;
+  cursor: pointer;
+}
+.sidebar .active {
+  background: var(--activeItem);
+}
+
+@media screen and (max-width: 1200px) {
+  .sidebar {
+    display: none;
+  }
+}
