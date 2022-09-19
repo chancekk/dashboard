@@ -26,6 +26,7 @@ const Home = () => {
 
         <div className="table">
           <p className="home-title"> Đơn hàng</p>
+          <p className="home-title"> Đơn hàng</p>
           <List />
           <Datatable />
         </div>
